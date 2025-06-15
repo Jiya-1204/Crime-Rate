@@ -1,8 +1,11 @@
 **Summary:**
+
 This repository features a Power BI project focused on analyzing a crime dataset. The project involves multiple phases such as data preprocessing, modeling, and visualization, all aimed at deriving actionable insights from the data.
 
 **Project Process:**
+
 **Data Preparation and Transformation:**
+
 
 Leveraged Power Query to clean and restructure the raw crime data for accuracy and uniformity.
 
