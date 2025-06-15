@@ -1,68 +1,45 @@
-******Summary:******
+Crime Analysis Power BI Project
+Overview:
+In this repository, you will find a Power BI project that analyzes a crime dataset. The project encompasses various stages, including data cleaning, modeling, and visualization, aimed at extracting valuable insights from the dataset.
 
-- This repository features a Power BI project focused on analyzing a crime dataset. The project involves multiple phases such as data preprocessing, modeling, and visualization, all aimed at deriving actionable insights from the data.
+Project Workflow:
+Data Cleaning and Formatting:
 
-******Project Process:******
+Utilized Power Query to clean and format the raw crime dataset, ensuring data consistency and quality.
+Data Modeling:
 
-******Data Preparation and Transformation:******
+Created a robust data model to facilitate efficient analysis.
+Developed a date table to enable time-based analysis and visualization.
+Measures and Calculated Columns:
 
+Employed DAX (Data Analysis Expressions) to generate additional insights from the dataset.
+Created measures and calculated columns to compute various metrics and indicators.
+Report Creation:
 
--Leveraged Power Query to clean and restructure the raw crime data for accuracy and uniformity.
+Designed a comprehensive report comprising multiple dashboards to visualize key findings.
+Implemented drill-through functionality for detailed exploration of time and weekday features.
+Key Analysis Areas:
+Total Crimes:
 
-**Data Model Development:**
+Provides a summation of all reported crimes in the dataset.
+Crime Distribution by Year and Yearly Changes:
 
--Constructed an efficient data model to streamline analysis.
+Analyzes crimes categorized by year, highlighting year-over-year changes.
+Crimes by Time Range:
 
--Built a custom date table to support temporal insights and visual breakdowns.
+Explores crime occurrences within specific time intervals, offering a detailed breakdown.
+Heatmap Showing Crime Distribution by Weekdays and Months:
 
-**DAX Metrics and Computed Fields:**
+Visualizes crime distribution across weekdays and months using a heatmap.
+Crimes by Country:
 
--Used Data Analysis Expressions (DAX) to uncover deeper insights.
+Examines crimes categorized by the country of occurrence.
+Total Resolved and Unresolved Crimes:
 
--Developed calculated columns and dynamic measures to evaluate various crime metrics.
+Distinguishes between resolved and unresolved crimes, providing an overview of the resolution rate.
+Monthly Crime Trend with Percentage Variance:
 
-**Report Design:**
+Analyzes the monthly crime trend and highlights percentage variances to illustrate fluctuations.
+Identification of the Most Dangerous Time of the Day:
 
--Assembled a detailed multi-page report with interactive dashboards.
-
--Integrated drill-through capabilities to allow deeper investigation by time and weekday dimensions.
-
-**Core Analytical Insights:
-Overall Crime Count:**
-
--Displays the total number of crimes recorded in the dataset.
-
-**Yearly Crime Breakdown and Trends:**
-
--Breaks down crime data by year and visualizes year-to-year trends.
-
-**Crimes by Time Intervals:**
-
--Analyzes the frequency of crimes during different time slots throughout the day.
-
-**Weekday and Monthly Crime Patterns (Heatmap):**
-
--Shows the concentration of crimes across different weekdays and months using a heatmap visualization.
-
-**Geographic Crime Distribution:**
-
--Looks at how crimes are distributed across various countries.
-
-**Resolved vs. Unresolved Cases:**
-
--Highlights the number of cases that have been solved compared to those still open.
-
-**Month-to-Month Crime Variation:**
-
--Tracks crime trends on a monthly basis, including percentage changes to capture variability.
-
-**Most Crime-Prone Time Periods:**
-
--Identifies which times of the day see the highest volume of criminal activity.
-
-
-
-![image](https://github.com/MuskanKhandelia/Crime_Analysis/assets/65664089/83fc0a43-3caf-4c55-9082-75cdade365ad)
-
-![image](https://github.com/MuskanKhandelia/Crime_Analysis/assets/65664089/c0b0dcfe-2521-43ce-b50c-7e1e6e54e5a7)
-
+Pinpoints specific time periods associated with a higher frequency of crimes.
