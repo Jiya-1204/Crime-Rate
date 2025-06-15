@@ -1,48 +1,63 @@
-# Crime Analysis Power BI Project
+Summary:
+This repository features a Power BI project focused on analyzing a crime dataset. The project involves multiple phases such as data preprocessing, modeling, and visualization, all aimed at deriving actionable insights from the data.
 
-## Overview:
-In this repository, you will find a Power BI project that analyzes a crime dataset. The project encompasses various stages, including data cleaning, modeling, and visualization, aimed at extracting valuable insights from the dataset.
+Project Process:
+Data Preparation and Transformation:
 
-## Project Workflow:
-1. **Data Cleaning and Formatting:**
-   - Utilized Power Query to clean and format the raw crime dataset, ensuring data consistency and quality.
+Leveraged Power Query to clean and restructure the raw crime data for accuracy and uniformity.
 
-2. **Data Modeling:**
-   - Created a robust data model to facilitate efficient analysis.
-   - Developed a date table to enable time-based analysis and visualization.
+Data Model Development:
 
-3. **Measures and Calculated Columns:**
-   - Employed DAX (Data Analysis Expressions) to generate additional insights from the dataset.
-   - Created measures and calculated columns to compute various metrics and indicators.
+Constructed an efficient data model to streamline analysis.
 
-4. **Report Creation:**
-   - Designed a comprehensive report comprising multiple dashboards to visualize key findings.
-   - Implemented drill-through functionality for detailed exploration of time and weekday features.
+Built a custom date table to support temporal insights and visual breakdowns.
 
-## Key Analysis Areas:
-1. **Total Crimes:**
-   - Provides a summation of all reported crimes in the dataset.
+DAX Metrics and Computed Fields:
 
-2. **Crime Distribution by Year and Yearly Changes:**
-   - Analyzes crimes categorized by year, highlighting year-over-year changes.
+Used Data Analysis Expressions (DAX) to uncover deeper insights.
 
-3. **Crimes by Time Range:**
-   - Explores crime occurrences within specific time intervals, offering a detailed breakdown.
+Developed calculated columns and dynamic measures to evaluate various crime metrics.
 
-4. **Heatmap Showing Crime Distribution by Weekdays and Months:**
-   - Visualizes crime distribution across weekdays and months using a heatmap.
+Report Design:
 
-5. **Crimes by Country:**
-   - Examines crimes categorized by the country of occurrence.
+Assembled a detailed multi-page report with interactive dashboards.
 
-6. **Total Resolved and Unresolved Crimes:**
-   - Distinguishes between resolved and unresolved crimes, providing an overview of the resolution rate.
+Integrated drill-through capabilities to allow deeper investigation by time and weekday dimensions.
 
-7. **Monthly Crime Trend with Percentage Variance:**
-   - Analyzes the monthly crime trend and highlights percentage variances to illustrate fluctuations.
+Core Analytical Insights:
+Overall Crime Count:
 
-8. **Identification of the Most Dangerous Time of the Day:**
-   - Pinpoints specific time periods associated with a higher frequency of crimes.
+Displays the total number of crimes recorded in the dataset.
+
+Yearly Crime Breakdown and Trends:
+
+Breaks down crime data by year and visualizes year-to-year trends.
+
+Crimes by Time Intervals:
+
+Analyzes the frequency of crimes during different time slots throughout the day.
+
+Weekday and Monthly Crime Patterns (Heatmap):
+
+Shows the concentration of crimes across different weekdays and months using a heatmap visualization.
+
+Geographic Crime Distribution:
+
+Looks at how crimes are distributed across various countries.
+
+Resolved vs. Unresolved Cases:
+
+Highlights the number of cases that have been solved compared to those still open.
+
+Month-to-Month Crime Variation:
+
+Tracks crime trends on a monthly basis, including percentage changes to capture variability.
+
+Most Crime-Prone Time Periods:
+
+Identifies which times of the day see the highest volume of criminal activity.
+
+
 
 ![image](https://github.com/MuskanKhandelia/Crime_Analysis/assets/65664089/83fc0a43-3caf-4c55-9082-75cdade365ad)
 
