@@ -12,7 +12,7 @@ In this repository, you will find a Power BI project that analyzes a crime datas
    - Developed a date table to enable time-based analysis and visualization.
 
 3. **Measures and Calculated Columns:**
-   - Employed DAX (Data Analysis Expressions) to generate additional insights from the dataset.
+   
    - Created measures and calculated columns to compute various metrics and indicators.
 
 4. **Report Creation:**
